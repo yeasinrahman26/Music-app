@@ -1,5 +1,6 @@
 import FeaturedCourses from '@/components/FeaturedCourses';
 import HeroSection from '@/components/HeroSection';
+import TestimonialCards from '@/components/TestimonialCards';
 import WhyChoiceUs from '@/components/WhyChoiceUs';
 import React from 'react';
 
@@ -10,6 +11,7 @@ const Home = () => {
       <HeroSection></HeroSection>
       <FeaturedCourses></FeaturedCourses>
       <WhyChoiceUs></WhyChoiceUs>
+      <TestimonialCards></TestimonialCards>
     </main>
   );
 };
