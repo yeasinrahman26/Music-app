@@ -1,5 +1,6 @@
 import FeaturedCourses from '@/components/FeaturedCourses';
 import HeroSection from '@/components/HeroSection';
+import Instructors from '@/components/Instructors';
 import TestimonialCards from '@/components/TestimonialCards';
 import UpcomingWebomars from '@/components/UpcomingWebomars';
 import WhyChoiceUs from '@/components/WhyChoiceUs';
@@ -14,6 +15,7 @@ const Home = () => {
       <WhyChoiceUs></WhyChoiceUs>
       <TestimonialCards></TestimonialCards>
       <UpcomingWebomars></UpcomingWebomars>
+      <Instructors></Instructors>
     </main>
   );
 };
